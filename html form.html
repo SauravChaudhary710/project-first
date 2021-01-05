@@ -1,0 +1,212 @@
+<html>
+<head>
+	<style>
+	ul{list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;}
+
+a:link,a:visited{
+            display:block;
+			fornt-weight:bold;
+			color:#FFFFFF;
+			BACKGROUND-COLOR:#98bf21;
+			width:320px;
+			height:30px;
+			text-align:center;
+			padding:5px;
+			text-transform:uppercase;
+			text-decoration}
+			a:hover,a:active{
+			background-color:#7A991A;}
+			li{float:right;
+			
+			}
+	
+	
+	
+	body { background-image: url('fimg.jpg');
+	              opacity:0.8;
+				  
+                }
+				
+				h1,h3{color:darkviolet;
+				     
+					 }
+				table{
+                         border: 1px solid black;
+                          border-collapse: collapse;
+						  padding:5,10,10,5;}
+
+                div{ 
+				background-color:#337E91;
+				border:1px solid black;
+				width:550px;
+				color:#900C3F
+				
+				
+				}
+				
+				
+				.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  *background: var(--color-green);
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
+				
+				
+</style>
+
+</head><center>
+<body>
+
+
+<ul>
+	 <li><a href="#home">HOME</a></li>
+	 <li><a href="#contect">CONTECT</a></li>
+	 <li><a href="#channel">CHANNEL</a></li>
+	 <li><a href="#log in">Log In</a></li>
+	 </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1>freeCodeCamp Survey Form</h1>
+
+<h3>thank you for taking the time to help us improve the platform</h3>
+
+
+<form>
+<table style="color:#900C3F;font-size:30px;" width="550px" height="600px" bgcolor="#337E91">
+</tr>
+<tr>
+<td><b>
+<lebel for="First_Name">Firat Name</lebel></b>
+</td>
+<td>
+<input type="text" name="first_name" size="40" >
+</td>
+</tr>
+<tr>
+<td><b>
+<lebel for="last_name">Last Name</lebel></b>
+</td>
+<td>
+<input type="text" name="last_name"  size="40">
+</td>
+</tr>
+<tr><td><b>
+<lebel for="email">Email Address</lebel></b>
+</td><td>
+<input type="text" name="email" size="40">
+</td></tr>
+<tr><td><b>
+<lebel for="telephone">Telephone Number</lebel></b>
+</td><td>
+<input type="text" name="telephone"  size="40">
+</td></tr>
+<tr><td><b>
+<lebel for="Age">Age</lebel></b>
+</td><td>
+<input type="date" name="Age" size="40"><br>
+
+</td></tr>
+
+<tr><td><b> <lebel for="current rol">current rol</lebel></b></td>
+<td><input type="text" list="programming" size="40">
+<datalist id="programming">
+
+<option value="student"><option>
+<option value="full time job"><option>
+<option value="full time lerner"><option>
+<option value="perfer no to say"><option>
+<option value="other"></option>
+</datalist></td></tr>
+
+
+
+
+<tr>
+<td colspan="2" style="text" align="center">
+
+</td></tr>
+
+
+</table>
+<div>
+      <b><h2>Would you recommend freeCodeCamp to a friend?</h2></b>
+      <label>
+        <input
+		   
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        /><b>Definitely</b></label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        /><b>Maybe</b></label
+      >
+
+      <label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        /><b>Not sure</b></label
+      ><br>
+	  <h2><b>What is your favorite feature of freecodecamp?</b></h2>
+	  <input type="text"  size="70" list="feature">
+         <datalist id="feature">
+
+        <option value="challenges"><option>
+        <option value="project"><option>
+        <option value="community"><option>
+        <option value="open source"><option>
+        
+        </datalist>
+		<h2><b>What would you like to see improved?(Check all that apply)</h2></p>
+	      <input type="checkbox"><b>Front-enf projects</b>
+		  <input type="checkbox"><b>Back-end Projects</b><br>
+		  <input type="checkbox"><b>Data Visualization</b>
+		  <input type="checkbox"><b>Challenges</b><br>
+		  <input type="checkbox"><b>Open Source Community</b>
+		  <input type="checkbox"> <b> Gitter help rooms</b><br>
+		  <input type="checkbox"> <b> Videos</b>
+		  <input type="checkbox"> <b> City Meetups</b><br>
+		  <input type="checkbox"> <b> Wiki</b>
+		  <input type="checkbox"> <b> Forum</b><br>
+		  <input type="checkbox"> <b> Additional Courses</b><br>
+		  <h2><b>Any comments or suggestion?</b></h2>
+		  <textarea type="text" name="commemts" rows="9"></textarea><br>
+    
+	</div>
+	<div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+</form>
+
+</body>
+</html>
